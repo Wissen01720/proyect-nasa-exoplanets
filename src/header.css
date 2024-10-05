@@ -1,0 +1,21 @@
+.button {
+    background: linear-gradient(90deg, #870DD9, #5F4A8C);
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(135, 13, 217, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 10PX;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(135, 13, 217, 1);
+}
+.button {
+    margin-right: 10px; 
+}
+
+.button:last-child {
+    margin-right:0;
+}
